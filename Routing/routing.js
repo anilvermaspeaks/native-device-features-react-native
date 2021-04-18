@@ -6,10 +6,10 @@ import { createStackNavigator } from 'react-navigation-stack';
 import Colors from '../theme/colors';
 
 //feature screens
-import AddPlaces from '../pages/addPlace';
-import MapPlace from '../pages/mapPlace';
-import PlaceDetail from '../pages/placeDetail';
-import PlacesListing from '../pages/placesListing';
+import AddPlaces from '../pages/AddPlace';
+import MapPlace from '../pages/MapPlace';
+import PlaceDetail from '../pages/PlaceDetail';
+import PlacesListing from '../pages/PlacesListing';
 
 
 const AppNavigator = createStackNavigator({
