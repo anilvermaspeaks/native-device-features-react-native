@@ -9,7 +9,6 @@ const PlacesDetail = (props) => {
 }
 
 PlacesDetail.navigationOptions = navData => {
-    console.log()
     return {
         headerTitle: navData.navigation.getParam('title')
     }
